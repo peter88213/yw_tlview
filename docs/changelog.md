@@ -5,6 +5,11 @@
 ## Changelog
 
 
+### Version 0.3.0
+
+- Disallowing changes.
+
+
 ### Version 0.2.0
 
 Updated docstrings and window titles.

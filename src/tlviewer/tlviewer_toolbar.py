@@ -141,7 +141,7 @@ class TlviewerToolbar(ttk.Frame):
         self.buttons.append(arrowUpButton)
 
         # Separator.
-        tk.Frame(self, bg='light gray', width=1).pack(side='left', fill='y', padx=6)
+        # tk.Frame(self, bg='light gray', width=1).pack(side='left', fill='y', padx=6)
 
         self.undoButton = ttk.Button(
             self,
@@ -150,7 +150,7 @@ class TlviewerToolbar(ttk.Frame):
             command=self._event('<<undo>>'),
             state='disabled',
             )
-        self.undoButton.pack(side='left')
+        # self.undoButton.pack(side='left')
         self.undoButton.image = self._toolbarIcons['undo']
 
         # Initialize tooltips.

@@ -93,6 +93,9 @@ class TimelineViewer(TlviewerCommands):
         #--- Connect the controls.
         self.bind_events()
 
+        #--- Disallow changes.
+        self.tlv.lock()
+
     def disable_menu(self):
         """Disable menu entries when no project is open.
         
