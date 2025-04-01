@@ -20,7 +20,7 @@ A timeline viewer programmed with Python, using tkinter.
 - You can scroll forward and back in time.
 - The application is ready for internationalization with GNU gettext. 
 
-By the way, there is also the [timeline-viewer-tk](https://github.com/peter88213/timeline-viewer-tk/)
+By the way, there is also the [timeline-view-tk](https://github.com/peter88213/timeline-viewer-tk/)
 application that reads and writes csv files.
 
 
