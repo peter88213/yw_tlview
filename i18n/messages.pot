@@ -1,0 +1,177 @@
+# yw_timeline_viewer Dictionary
+# Copyright (C) 2023 Peter Triesberger
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"POT-Creation-Date: 2025-04-01 23:36:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: novxlib pgettext.py 0.3\n"
+
+
+msgid "About Timeline viewer"
+msgstr ""
+
+msgid "Cannot read file"
+msgstr ""
+
+msgid "Cannot write file"
+msgstr ""
+
+msgid "Cascading"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Ctrl"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "First event"
+msgstr ""
+
+msgid "Fit to window"
+msgstr ""
+
+msgid "Go to"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Home page"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Icon size changed"
+msgstr ""
+
+msgid "Increase scale"
+msgstr ""
+
+msgid "Large toolbar icons"
+msgstr ""
+
+msgid "Last event"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Online help"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open project file"
+msgstr ""
+
+msgid "Open the file for data entry?"
+msgstr ""
+
+msgid "Open..."
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Page back"
+msgstr ""
+
+msgid "Page forward"
+msgstr ""
+
+msgid "Project created"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Reduce scale"
+msgstr ""
+
+msgid "Relaxed"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Save changes?"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Scroll back"
+msgstr ""
+
+msgid "Scroll forward"
+msgstr ""
+
+msgid "Shift"
+msgstr ""
+
+msgid "Shift end"
+msgstr ""
+
+msgid "Shift start"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "The change takes effect after next startup"
+msgstr ""
+
+msgid "Tight"
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Unhandled exception on exit"
+msgstr ""
+
+msgid "Use 00:00 for missing times"
+msgstr ""
+
+msgid "Years"
+msgstr ""
+
+msgid "d"
+msgstr ""
+
+msgid "h"
+msgstr ""
+
+msgid "https://peter88213.github.io/yw_tlview/help/"
+msgstr ""
+
+msgid "m"
+msgstr ""
