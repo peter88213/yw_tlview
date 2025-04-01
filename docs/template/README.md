@@ -10,36 +10,19 @@ A timeline viewer programmed with Python, using tkinter.
 
 ![Screenshot](docs/Screenshots/screen01.png)
 
-The data is read from a csv file:
-
-![Screenshot](docs/Screenshots/screen02.png)
-
-The *nvtlview* class library provides the *tlv* widget that is addressed via its controller.
-
-*Timeline_viewer* is a simple standalone application using *nvtlview* 
-with a menu and a toolbar. 
 
 ## Features
 
-- The application reads the timeline data from a csv file and displays it on a resizable 
+- The application reads the timeline data from a *.yw7* file and displays it on a resizable 
   window.
 - Events can be defined with a specific date or with an unspecific day.
-- For the day zero, you can define a reference date, so that events with unspecific dates 
-  can be placed on a calendar scale.  
 - You can increase and reduce the time scale. 
 - You can scroll forward and back in time.
-- You can move the events along the time scale using the mouse.
-- You can adjust the events' durations using the mouse.
 - The application is ready for internationalization with GNU gettext. 
 
-The *nvtlview* class library is used for the 
-[novelibre timeline viewer plugin](https://github.com/peter88213/nv_tlview/),
-for example.
+By the way, there is also the [timeline-viewer-tk](https://github.com/peter88213/timeline-viewer-tk/)
+application that reads and writes csv files.
 
-
-## Translations
-
-There is a [German language pack](https://github.com/peter88213/tlviewer_de) to be installed separately. 
 
 
 ## Requirements
