@@ -1,4 +1,4 @@
-"""A timeline viewer application using tkinter.
+"""A timeline viewer application for yWriter projects.
 
 Version @release
 Requires Python 3.6+
@@ -66,7 +66,7 @@ class TimelineViewer(TlviewerCommands):
             # enabling localized time display
 
         self.root = tk.Tk()
-        self.root.title('Timeline viewer')
+        self.root.title('yw Timeline viewer')
         self.root.geometry(prefs['window_geometry'])
         set_icon(self.root, icon='tlv')
 

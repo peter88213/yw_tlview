@@ -5,6 +5,10 @@
 ## Changelog
 
 
+### Version 0.2.0
+
+Updated docstrings and window titles.
+
 
 ### Version 0.1.0
 

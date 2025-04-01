@@ -24,9 +24,9 @@ class TlviewerCommands:
         Important: after building the program, __doc__ will be the yw_timeline_viewer docstring.
         """
         messagebox.showinfo(
-            message='Timeline viewer',
+            message='yw Timeline viewer',
             detail=__doc__,
-            title=_('About Timeline viewer'),
+            title=_('About yw Timeline viewer'),
             )
 
     def bind_events(self):
