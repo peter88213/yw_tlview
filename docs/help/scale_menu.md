@@ -1,4 +1,4 @@
-[yw Timeline viewer help](index.md) > "Scale" menu
+[Home](..) > [yw Timeline viewer help](index.md) > "Scale" menu
 
 ---
 
