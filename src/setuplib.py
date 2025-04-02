@@ -34,16 +34,16 @@ SUCCESS_MESSAGE = '''
 
 $Appname is installed here:
 
-$Apppath'''
+$DisplayDir'''
 
 SHORTCUT_MESSAGE = '''
 Now you might want to create a shortcut on your desktop.  
 
 On Windows, open the installation folder, hold down the Alt key on your keyboard, 
-and then drag and drop $Appname.py to your desktop.
+and then drag and drop "run.pyw" to your desktop.
 
 On Linux, create a launcher on your desktop. With xfce for instance, the launcher's command may look like this:
-python3 '$Apppath' %F
+python3 /home/peter/.yw_tlview/run.pyw %F
 '''
 
 START_UP_CODE = f'''import logging
@@ -157,9 +157,13 @@ def install(novxPath, zipped):
 
     #--- Create a start-up script.
     output('Creating starter script ...')
-    mapping = {'Appname': APPNAME, 'Apppath': f'{installDir}/{START_UP_SCRIPT}'}
-    mapping['InstallDir'] = installDir
-    mapping['Release'] = VERSION
+    mapping = {
+        'Appname': APPNAME,
+        'Apppath': f'{installDir}/{START_UP_SCRIPT}',
+        'InstallDir': installDir,
+        'Release': VERSION,
+        'DisplayDir': os.path.normpath(f'{installDir}'),
+    }
     if platform.system() == 'Windows':
         shebang = ''
     else:
@@ -179,7 +183,6 @@ def install(novxPath, zipped):
     copy_tree('sample', installDir)
 
     # Display a success message.
-    mapping = {'Appname': APPNAME, 'Apppath': f'{installDir}/{APP}'}
     output(Template(SUCCESS_MESSAGE).safe_substitute(mapping))
 
     # Ask for shortcut creation.
@@ -203,7 +206,7 @@ def main(zipped=True):
 
     # Run the installation.
     homePath = str(Path.home()).replace('\\', '/')
-    novxlibPath = f'{homePath}/{INSTALL_DIR}/'
+    novxlibPath = f'{homePath}/{INSTALL_DIR}'
     try:
         install(novxlibPath, zipped)
     except Exception as ex:
