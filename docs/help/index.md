@@ -9,7 +9,25 @@ This page refers to the latest
 open it with **Help > Online help**.
 
 
+
+## Setting up the program 
+
+After downloading and installing the program as described on the download page, 
+you might want to make some [preparations](preparations.md) in order to make
+it accessible on your desktop. 
+ 
+
 ## Operation
+
+### Launching the application
+
+- You can start the timeline viewer by dragging a *.yw7 *file onto the desktop shortcut, 
+  then this project will be opened. 
+- If you start the timeline viewer via clicking or double-clicking on the
+  program icon, the project from the last session will be automatically reopened, 
+  if there is one.
+- Otherwise a blank timeline view appears, and you can click on the 
+  **File > Open** menu item to load an existing project file. 
 
 
 ### Mouse scrolling
