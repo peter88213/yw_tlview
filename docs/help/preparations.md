@@ -29,7 +29,7 @@ e.g. `C:\Users\username\.yw_tlview`.
 
 ### Creating a desktop shortcut
 
-- Under Windows, you can drag the **run.pyw** icon on the Windows 
+- Under Windows, you can drag and drop the **run.pyw** icon onto the Windows 
   desktop while holding down the `Alt` key.
 - Optionally, you can open the shortcut's properties via right-click, 
   and change the icon. 
