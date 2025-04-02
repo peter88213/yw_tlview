@@ -6,7 +6,7 @@
 
 # ![](docs/img/tlv32.png) yw_tlview
 
-A timeline viewer programmed with Python, using tkinter.
+A timeline viewer for yWriter projects.
 
 ![Screenshot](docs/Screenshots/screen01.png)
 
