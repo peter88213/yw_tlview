@@ -1,8 +1,8 @@
-[Home](..)
+[Home](..) > yWriter Timeline viewer help
 
 ---
 
-# yWriter Timeline viewer User guide
+# yWriter Timeline viewer help
 
 This page refers to the latest
 [yw_tlview](https://github.com/peter88213/yw_tlview/) release. You can
