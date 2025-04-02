@@ -12,6 +12,8 @@ copies everything necessary into it, and generates a start file named
 **run.pyw** adapted for the respective computer, which must be called
 in order to start the application.
 
+![Windows screenshot](images/setup01.png)
+
 The necessary manual work consists of linking this start file to the
 desktop and, if desired, assigning a program icon to the link.
 
