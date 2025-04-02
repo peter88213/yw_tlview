@@ -21,10 +21,8 @@ class TlviewerMenu(tk.Menu):
         # "File" menu.
         self.fileMenu = tk.Menu(self, tearoff=0)
         self.add_cascade(label=_('File'), menu=self.fileMenu)
-        self.fileMenu.add_command(label=_('New'), command=self._event('<<create_project>>'))
         self.fileMenu.add_command(label=_('Open...'), accelerator=KEYS.OPEN_PROJECT[1], command=self._event('<<open_project>>'))
         self.fileMenu.add_command(label=_('Reload'), accelerator=KEYS.RELOAD_PROJECT[1], command=self._event('<<reload_project>>'))
-        self.fileMenu.add_separator()
         self.fileMenu.add_command(label=_('Close'), command=self._event('<<close_project>>'))
         if PLATFORM == 'win':
             label = _('Exit')
@@ -78,8 +76,8 @@ class TlviewerMenu(tk.Menu):
         self.helpMenu = tk.Menu(self, tearoff=0)
         self.add_cascade(label=_('Help'), menu=self.helpMenu)
         self.helpMenu.add_command(label=_('Online help'), command=self._event('<<open_help>>'))
-        self.helpMenu.add_command(label=_('About Timeline viewer'), command=self._event('<<about>>'))
-        self.helpMenu.add_command(label=f"Timeline viewer {_('Home page')}", command=self._event('<<open_homepage>>'))
+        self.helpMenu.add_command(label=_('About yw Timeline viewer'), command=self._event('<<about>>'))
+        self.helpMenu.add_command(label=f"yw Timeline viewer {_('Home page')}", command=self._event('<<open_homepage>>'))
 
         self._fileMenuNormalOpen = [
             _('Close'),

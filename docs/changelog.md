@@ -5,6 +5,13 @@
 ## Changelog
 
 
+### Version 0.4.0
+
+- Removed the "New" menu entry. 
+- Updated the "Help" menu entries. 
+- Updated the help pages.
+
+
 ### Version 0.3.1
 
 - Changed the event color to red (using the standard tlv_section_frame module).
