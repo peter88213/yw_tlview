@@ -22,28 +22,6 @@ open it with **Help \> Online help**.
     `Shift`-`Ctrl`-`Mousewheel`.
 
 
-### Shifting a section in time
-
--   Hold down the `Shift` button and click on the timeline marker, then
-    drag it with the mouse. This will move the section forward or
-    backward in time while keeping the duration.
-
-### Shifting the section end
-
--   Hold down the `Ctrl` and `Shift` buttons and click on the timeline
-    marker, then drag it with the mouse. This will increase or decrease
-    the section\'s duration while keeping the start date/time.
-
----
-
-**Hint** 
-
-- Shifting operations with the mouse can be aborted with the `Esc` key
-before releasing the mouse button. 
-- Shifting operations with the mouse can be undone with ![undo](images/undo.png).
-
----
-
 ## Command reference
 
 ### \"Go to\" menu
