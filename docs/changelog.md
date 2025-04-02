@@ -5,6 +5,12 @@
 ## Changelog
 
 
+### Version 0.3.1
+
+- Changed the event color to red (using the standard tlv_section_frame module).
+- Fixed docstrings (indicating the origin of the code).
+
+
 ### Version 0.3.0
 
 - Disallowing changes.

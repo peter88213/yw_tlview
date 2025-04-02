@@ -23,7 +23,7 @@ class TlvSectionCanvas(tk.Canvas):
         super().__init__(master, cnf={}, **kw)
         self._tlvCtrl = tlvController
         self['background'] = 'black'
-        self.eventMarkColor = 'turquoise'
+        self.eventMarkColor = 'red'
         self.eventTitleColor = 'white'
         self.eventDateColor = 'gray60'
         self.indicatorColor = 'lightblue'
