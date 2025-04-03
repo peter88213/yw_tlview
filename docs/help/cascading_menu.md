@@ -10,17 +10,17 @@ algorithm does not seem good enough to you, you can adjust its limits.
 
 ## Tight
 
-With **Cascading > **Tight**, you can arrange consecutive events behind each 
+With **Cascading > Tight**, you can arrange consecutive events behind each 
 other, even if they are close together.
 
 ## Relaxed
 
-With **Cascading > **Relaxed**, you can arrange consecutive events in a stack, 
+With **Cascading > Relaxed**, you can arrange consecutive events in a stack, 
 even if they are some distance apart.
 
 ## Standard
 
-With **Cascading > **Standard**, you can reset the cascading to default.
+With **Cascading > Standard**, you can reset the cascading to default.
 
 ---
 
