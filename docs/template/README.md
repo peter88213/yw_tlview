@@ -13,9 +13,10 @@ A timeline viewer for [yWriter](https://spacejock.com/yWriter7.html) projects.
 
 ## Features
 
-- The application reads the timeline data from a *.yw7* file and displays it on a resizable 
+- The application reads the scenes from a *.yw7* file and displays them on a resizable 
   window.
-- Events can be defined with a specific date or with an unspecific day.
+- Scenes with a specific date or with an unspecific day are displayed.
+- Scenes without a time can optionally be displayed using 00:00 as a default.
 - You can increase and reduce the time scale. 
 - You can scroll forward and back in time.
 - The application is ready for internationalization with GNU gettext. 
