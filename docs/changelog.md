@@ -5,6 +5,11 @@
 ## Changelog
 
 
+### Version 0.4.1
+
+- Fixed a bug where the path of an unreadable file may be stored as "last_open". 
+
+
 ### Version 0.4.0
 
 - Removed the "New" menu entry. 
