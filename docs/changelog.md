@@ -5,6 +5,11 @@
 ## Changelog
 
 
+### Version 0.5.1
+
+- Menu rewording.
+
+
 ### Version 0.5.0
 
 Refactored the code for better maintainability.

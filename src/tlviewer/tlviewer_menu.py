@@ -35,8 +35,8 @@ class TlviewerMenu(tk.Menu):
         # "Go to" menu.
         self.goMenu = tk.Menu(self, tearoff=0)
         self.add_cascade(label=_('Go to'), menu=self.goMenu)
-        self.goMenu.add_command(label=_('First event'), command=self._event('<<go_to_first>>'))
-        self.goMenu.add_command(label=_('Last event'), command=self._event('<<go_to_last>>'))
+        self.goMenu.add_command(label=_('First scene'), command=self._event('<<go_to_first>>'))
+        self.goMenu.add_command(label=_('Last scene'), command=self._event('<<go_to_last>>'))
 
         # "Scale" menu.
         self.scaleMenu = tk.Menu(self, tearoff=0)

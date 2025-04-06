@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.5.0\n"
-"POT-Creation-Date: 2025-04-06 12:24:45\n"
+"Project-Id-Version: 0.5.1\n"
+"POT-Creation-Date: 2025-04-06 13:57:22\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -50,6 +50,9 @@ msgstr ""
 msgid "First event"
 msgstr ""
 
+msgid "First scene"
+msgstr ""
+
 msgid "Fit to window"
 msgstr ""
 
@@ -75,6 +78,9 @@ msgid "Large toolbar icons"
 msgstr ""
 
 msgid "Last event"
+msgstr ""
+
+msgid "Last scene"
 msgstr ""
 
 msgid "New"
