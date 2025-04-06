@@ -5,6 +5,13 @@
 ## Changelog
 
 
+### Version 0.5.0
+
+Refactored the code for better maintainability.
+- Renamed the nvtlv package to tlv according to nv_tlv 5.4.0
+- Separated the application-specific key definitions.
+
+
 ### Version 0.4.1
 
 - Fixed a bug where the path of an unreadable file may be stored as "last_open". 

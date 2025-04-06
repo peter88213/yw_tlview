@@ -6,10 +6,12 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 from tkinter import messagebox
 
-from nvtlview.platform.platform_settings import KEYS
-from nvtlview.platform.platform_settings import PLATFORM
-from nvtlview.tlv_locale import _
 import tkinter as tk
+from tlv.platform.platform_settings import KEYS
+from tlv.platform.platform_settings import PLATFORM
+from tlv.tlv_locale import _
+from tlviewer.key_definitions import KEY_OPEN_PROJECT
+from tlviewer.key_definitions import KEY_RELOAD_PROJECT
 from tlviewer.tlviewer_globals import prefs
 
 
@@ -21,8 +23,8 @@ class TlviewerMenu(tk.Menu):
         # "File" menu.
         self.fileMenu = tk.Menu(self, tearoff=0)
         self.add_cascade(label=_('File'), menu=self.fileMenu)
-        self.fileMenu.add_command(label=_('Open...'), accelerator=KEYS.OPEN_PROJECT[1], command=self._event('<<open_project>>'))
-        self.fileMenu.add_command(label=_('Reload'), accelerator=KEYS.RELOAD_PROJECT[1], command=self._event('<<reload_project>>'))
+        self.fileMenu.add_command(label=_('Open...'), accelerator=KEY_OPEN_PROJECT[1], command=self._event('<<open_project>>'))
+        self.fileMenu.add_command(label=_('Reload'), accelerator=KEY_RELOAD_PROJECT[1], command=self._event('<<reload_project>>'))
         self.fileMenu.add_command(label=_('Close'), command=self._event('<<close_project>>'))
         if PLATFORM == 'win':
             label = _('Exit')

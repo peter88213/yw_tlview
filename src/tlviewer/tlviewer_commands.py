@@ -9,9 +9,10 @@ from tkinter import filedialog
 from tkinter import messagebox
 import webbrowser
 
-from nvtlview.platform.platform_settings import KEYS
-from nvtlview.tlv_locale import _
+from tlv.tlv_locale import _
 from tlviewer.doc_open import open_document
+from tlviewer.key_definitions import KEY_OPEN_PROJECT
+from tlviewer.key_definitions import KEY_RELOAD_PROJECT
 from tlviewer.tlviewer_globals import HELP_URL
 from tlviewer.tlviewer_globals import HOME_URL
 
@@ -62,10 +63,8 @@ class TlviewerCommands:
             '<<set_hour_scale>>': self.tlv.set_hour_scale,
             '<<set_year_scale>>': self.tlv.set_year_scale,
             '<<undo>>': self.tlv.undo,
-            KEYS.OPEN_PROJECT[0]: self.open_project,
-            KEYS.RELOAD_PROJECT[0]: self.reload_project,
-            KEYS.SAVE_AS[0]: self.save_as,
-            KEYS.SAVE_PROJECT[0]: self.save_project,
+            KEY_OPEN_PROJECT[0]: self.open_project,
+            KEY_RELOAD_PROJECT[0]: self.reload_project,
         }
         for sequence, callback in event_callbacks.items():
             self.root.bind(sequence, callback)

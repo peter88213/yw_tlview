@@ -6,7 +6,7 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 from tkinter import ttk
 
-from nvtlview.tlv_locale import _
+from tlv.tlv_locale import _
 import tkinter as tk
 from tlviewer.tlviewer_globals import INSTALL_DIR
 from tlviewer.tlviewer_globals import prefs

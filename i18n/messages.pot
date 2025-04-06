@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.4.1\n"
-"POT-Creation-Date: 2025-04-04 08:59:16\n"
+"Project-Id-Version: 0.5.0\n"
+"POT-Creation-Date: 2025-04-06 12:24:45\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -129,9 +129,6 @@ msgid "Scroll back"
 msgstr ""
 
 msgid "Scroll forward"
-msgstr ""
-
-msgid "Shift"
 msgstr ""
 
 msgid "Shift end"

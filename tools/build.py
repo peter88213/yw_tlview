@@ -12,7 +12,7 @@ sys.path.insert(0, f'{os.getcwd()}/../../yw_tlview/tools')
 from package_builder import PackageBuilder
 import inliner
 
-VERSION = '0.4.1'
+VERSION = '0.5.0'
 
 TEMP_FILE = '../test/temp.py'
 
@@ -52,7 +52,7 @@ class ApplicationBuilder(PackageBuilder):
         inliner.run(
             TEMP_FILE,
             target,
-            'nvtlview',
+            'tlv',
             '../../yw_tlview/src/'
             )
         os.remove(TEMP_FILE)

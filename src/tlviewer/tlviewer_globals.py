@@ -6,7 +6,7 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 from pathlib import Path
 
-from nvtlview.tlv_locale import _
+from tlv.tlv_locale import _
 
 prefs = {}
 HELP_URL = _('https://peter88213.github.io/yw_tlview/help/')

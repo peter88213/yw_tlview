@@ -6,7 +6,7 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
 
-from nvtlview.platform.platform_settings import PLATFORM
+from tlv.platform.platform_settings import PLATFORM
 
 
 def open_document(document):

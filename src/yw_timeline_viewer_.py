@@ -22,8 +22,8 @@ import sys
 from tkinter import messagebox
 from tkinter import ttk
 
-from nvtlview.tlv_controller import TlvController
-from nvtlview.tlv_locale import _
+from tlv.tlv_controller import TlvController
+from tlv.tlv_locale import _
 import tkinter as tk
 from tlv_model.yw7_file import Yw7File
 from tlv_model.tlv_data_model import TlvDataModel
