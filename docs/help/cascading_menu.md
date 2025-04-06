@@ -4,18 +4,18 @@
 
 # "Cascading" menu
 
-The section marks are stacked on the timeline canvas, so that they would
-not overlap or cover the title of previous sections. If the stacking
+The scene marks are stacked on the timeline canvas, so that they would
+not overlap or cover the title of previous scenes. If the stacking
 algorithm does not seem good enough to you, you can adjust its limits.
 
 ## Tight
 
-With **Cascading > Tight**, you can arrange consecutive events behind each 
+With **Cascading > Tight**, you can arrange consecutive scenes behind each 
 other, even if they are close together.
 
 ## Relaxed
 
-With **Cascading > Relaxed**, you can arrange consecutive events in a stack, 
+With **Cascading > Relaxed**, you can arrange consecutive scenes in a stack, 
 even if they are some distance apart.
 
 ## Standard
