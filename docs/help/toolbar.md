@@ -16,12 +16,12 @@
 
 ![goToFirst](images/goToFirst.png) Go to the first event
 
-:   Shift the timeline so that the earliest event is positioned near the
+:   Shift the timeline so that the earliest scene is positioned near the
     left edge of the window.
 
 ![goToLast](images/goToLast.png) Go to the last event
 
-:   Shift the timeline so that the latest event is positioned near the
+:   Shift the timeline so that the latest scene is positioned near the
     right edge of the window.
 
 ![arrowRight](images/arrowRight.png) Scroll forward
@@ -41,7 +41,7 @@
 
 ![fitToWindow](images/fitToWindow.png) Fit to window
 
-:   This sets the scale and moves the timeline, so that all sections
+:   This sets the scale and moves the timeline, so that all scenes
     with valid or substituted date/time information fit into the window.
 
 ![arrowUp](images/arrowUp.png) Increase the time scale
