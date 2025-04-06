@@ -52,5 +52,5 @@
 ![undo](images/undo.png) Undo the last change
 
 :   This restores date/time/duration before the last mouse operation on
-    a section.
+    an event.
 
