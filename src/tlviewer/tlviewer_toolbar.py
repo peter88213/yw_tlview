@@ -68,7 +68,7 @@ class TlviewerToolbar(ttk.Frame):
 
         goToFirstButton = ttk.Button(
             self,
-            text=_('First event'),
+            text=_('First scene'),
             image=self._toolbarIcons['goToFirst'],
             command=self._event('<<go_to_first>>')
             )
@@ -78,7 +78,7 @@ class TlviewerToolbar(ttk.Frame):
 
         goToLastButton = ttk.Button(
             self,
-            text=_('Last event'),
+            text=_('Last scene'),
             image=self._toolbarIcons['goToLast'],
             command=self._event('<<go_to_last>>')
             )

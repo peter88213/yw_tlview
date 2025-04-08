@@ -5,6 +5,11 @@
 ## Changelog
 
 
+### Version 0.5.2
+
+- Updated tooltips.
+
+
 ### Version 0.5.1
 
 - Menu rewording.
