@@ -25,6 +25,10 @@ This application is a variant of the [timeline-view-tk](https://github.com/peter
 application that reads and writes csv files.
 
 
+## Translations
+
+There is a [German language pack](https://github.com/peter88213/yw_tlview_de) to be installed separately. 
+
 
 ## Requirements
 
