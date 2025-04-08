@@ -23,6 +23,6 @@ with the *yw_tlview* home page URL.
 **Hint**
 
 This is a quick way to get to the download link of the most recent 
-Timeline viewer version.
+yw Timeline viewer version.
 
----
+

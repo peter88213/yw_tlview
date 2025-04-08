@@ -11,7 +11,7 @@ With **File > Open** or ``Ctrl``-``O``,
 you can open an existing project file.
 
 - This will close the current project. 
-- A file select dialog asks for the new project’s file name.
+- A file select dialog asks for the project’s file name.
   If you cancel the dialog the action is aborted.
 
 

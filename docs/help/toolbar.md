@@ -49,8 +49,3 @@
 :   Increase the time scale in major steps. Fine scaling is meant to be
     done with the mouse wheel.
 
-![undo](images/undo.png) Undo the last change
-
-:   This restores date/time/duration before the last mouse operation on
-    an event.
-

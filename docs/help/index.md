@@ -40,7 +40,7 @@ it accessible on your desktop.
 -   Change the distance limits for stacking with
     `Shift`-`Ctrl`-`Mousewheel`.
 
-
+---
 
 ## Command reference
 
