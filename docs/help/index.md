@@ -23,7 +23,7 @@ it accessible on your desktop.
 
 - You can start the timeline viewer by dragging and dropping a *.yw7* file 
   onto the desktop shortcut, then this project will be opened. 
-- If you start the timeline viewer via clicking or double-clicking on the
+- If you start the timeline viewer via double-clicking on the
   program icon, the project from the last session will be automatically reopened, 
   if there is one.
 - Otherwise a blank timeline view appears, and you can click on the 
