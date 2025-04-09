@@ -33,9 +33,10 @@ application that reads and writes csv files.
 
 ---
 
-[Changelog](docs/changelog.md)
-
-[Feedback](https://github.com/peter88213/yw_tlview/discussions)
+- [Changelog](docs/changelog.md)
+- [User guide (English)](https://peter88213.github.io/yw_tlview/help/)
+- [User guide (German)](https://peter88213.github.io/yw_tlview_de/help/)
+- [Feedback](https://github.com/peter88213/yw_tlview/discussions)
 
 ---
 
