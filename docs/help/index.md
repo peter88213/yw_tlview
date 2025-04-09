@@ -1,4 +1,4 @@
-[Home](..) > yWriter Timeline viewer help
+[Home](..) > yw Timeline viewer help
 
 ---
 
