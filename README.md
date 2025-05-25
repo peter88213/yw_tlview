@@ -1,4 +1,4 @@
-[![Download the latest release](docs/img/download-button.png)](https://github.com/peter88213/yw_tlview/raw/main/dist/yw_timeline_viewer_v0.5.2.pyzw)
+[![Download the latest release](docs/img/download-button.png)](https://github.com/peter88213/yw_tlview/raw/main/dist/yw_timeline_viewer_v0.6.0.pyzw)
 [![Changelog](docs/img/changelog-button.png)](docs/changelog.md)
 [![Feedback](docs/img/feedback-button.png)](https://github.com/peter88213/yw_tlview/discussions)
 [![Online help](docs/img/help-button.png)](https://peter88213.github.io/yw_tlview/help/)
@@ -25,10 +25,6 @@ This application is a variant of the [timeline-view-tk](https://github.com/peter
 application that reads and writes csv files.
 
 
-## Translations
-
-There is a [German language pack](https://github.com/peter88213/yw_tlview_de) to be installed separately. 
-
 
 ## Requirements
 
@@ -48,10 +44,10 @@ There is a [German language pack](https://github.com/peter88213/yw_tlview_de) to
 
 ### Default: Executable Python zip archive
 
-Download the latest release [yw_timeline_viewer_v0.5.2.pyzw](https://github.com/peter88213/yw_tlview/raw/main/dist/yw_timeline_viewer_v0.5.2.pyzw)
+Download the latest release [yw_timeline_viewer_v0.6.0.pyzw](https://github.com/peter88213/yw_tlview/raw/main/dist/yw_timeline_viewer_v0.6.0.pyzw)
 
-- Launch *yw_timeline_viewer_v0.5.2.pyzw* by double-clicking (Windows/Linux desktop),
-- or execute `python yw_timeline_viewer_v0.5.2.pyzw` (Windows), resp. `python3 yw_timeline_viewer_v0.5.2.pyzw` (Linux) on the command line.
+- Launch *yw_timeline_viewer_v0.6.0.pyzw* by double-clicking (Windows/Linux desktop),
+- or execute `python yw_timeline_viewer_v0.6.0.pyzw` (Windows), resp. `python3 yw_timeline_viewer_v0.6.0.pyzw` (Linux) on the command line.
 
 #### Important
 
@@ -67,9 +63,9 @@ the zip file.
 
 ### Alternative: Zip file
 
-The package is also available in zip format: [yw_timeline_viewer_v0.5.2.zip](https://github.com/peter88213/yw_tlview/raw/main/dist/yw_timeline_viewer_v0.5.2.zip)
+The package is also available in zip format: [yw_timeline_viewer_v0.6.0.zip](https://github.com/peter88213/yw_tlview/raw/main/dist/yw_timeline_viewer_v0.6.0.zip)
 
-- Extract the *yw_timeline_viewer_v0.5.2* folder from the downloaded zipfile "yw_timeline_viewer_v0.5.2.zip".
+- Extract the *yw_timeline_viewer_v0.6.0* folder from the downloaded zipfile "yw_timeline_viewer_v0.6.0.zip".
 - Move into this new folder and launch *setup.pyw* by double-clicking (Windows/Linux desktop), 
 - or execute `python setup.pyw` (Windows), resp. `python3 setup.pyw` (Linux) on the command line.
 

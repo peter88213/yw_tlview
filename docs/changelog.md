@@ -5,6 +5,11 @@
 ## Changelog
 
 
+### Version 0.6.0
+
+- Updated the tlv library to nv_tlview 5.5.0, providing a small-scale overview at the bottom.
+
+
 ### Version 0.5.2
 
 - Updated tooltips.

@@ -12,7 +12,7 @@ sys.path.insert(0, f'{os.getcwd()}/../../yw_tlview/tools')
 from package_builder import PackageBuilder
 import inliner
 
-VERSION = '0.5.2'
+VERSION = '0.6.0'
 
 TEMP_FILE = '../test/temp.py'
 
@@ -20,7 +20,7 @@ TEMP_FILE = '../test/temp.py'
 class ApplicationBuilder(PackageBuilder):
 
     PRJ_NAME = 'yw_timeline_viewer'
-    GERMAN_TRANSLATION = True
+    GERMAN_TRANSLATION = False
 
     def __init__(self, version):
         super().__init__(version)
