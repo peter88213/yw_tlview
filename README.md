@@ -26,6 +26,11 @@ application that reads and writes csv files.
 
 
 
+## Translations
+
+There is a [German language pack](https://github.com/peter88213/yw_tlview_de) to be installed separately. 
+
+
 ## Requirements
 
 - Windows or Linux. Mac OS support is experimental.
