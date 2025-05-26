@@ -12,7 +12,7 @@ from tlv.platform.platform_settings import PLATFORM
 from tlv.tlv_locale import _
 from tlviewer.key_definitions import KEY_OPEN_PROJECT
 from tlviewer.key_definitions import KEY_RELOAD_PROJECT
-from tlviewer.tlviewer_globals import prefs
+from tlviewer.tlviewer_globals import settings
 
 
 class TlviewerMenu(tk.Menu):
@@ -61,13 +61,13 @@ class TlviewerMenu(tk.Menu):
         self.optionsMenu = tk.Menu(self, tearoff=0)
         self.toolsMenu.add_cascade(label=_('Options'), menu=self.optionsMenu)
 
-        self._substituteMissingTime = tk.BooleanVar(value=prefs['substitute_missing_time'])
+        self._substituteMissingTime = tk.BooleanVar(value=settings['substitute_missing_time'])
         self.optionsMenu.add_checkbutton(
             label=_('Use 00:00 for missing times'),
             variable=self._substituteMissingTime,
             command=self._change_substitution_mode,
             )
-        self._largeIcons = tk.BooleanVar(value=prefs['large_icons'])
+        self._largeIcons = tk.BooleanVar(value=settings['large_icons'])
         self.optionsMenu.add_checkbutton(
             label=_('Large toolbar icons'),
             variable=self._largeIcons,
@@ -115,7 +115,7 @@ class TlviewerMenu(tk.Menu):
             self.entryconfig(entry, state='normal')
 
     def _change_icon_size(self):
-        prefs['large_icons'] = self._largeIcons.get()
+        settings['large_icons'] = self._largeIcons.get()
         messagebox.showinfo(
             message=_('Icon size changed'),
             detail=f"{_('The change takes effect after next startup')}.",
@@ -123,6 +123,6 @@ class TlviewerMenu(tk.Menu):
             )
 
     def _change_substitution_mode(self):
-        prefs['substitute_missing_time'] = self._substituteMissingTime.get()
+        settings['substitute_missing_time'] = self._substituteMissingTime.get()
         root = self.master.winfo_toplevel()
         root.event_generate('<<refresh_view>>')

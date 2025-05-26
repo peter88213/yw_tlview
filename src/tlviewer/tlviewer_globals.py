@@ -8,7 +8,7 @@ from pathlib import Path
 
 from tlv.tlv_locale import _
 
-prefs = {}
+settings = {}
 HELP_URL = _('https://peter88213.github.io/yw_tlview/help/')
 HOME_URL = 'https://github.com/peter88213/yw_tlview/'
 

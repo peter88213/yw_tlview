@@ -22,16 +22,16 @@ import sys
 from tkinter import messagebox
 from tkinter import ttk
 
+import tkinter as tk
 from tlv.tlv_controller import TlvController
 from tlv.tlv_locale import _
-import tkinter as tk
-from tlv_model.yw7_file import Yw7File
 from tlv_model.tlv_data_model import TlvDataModel
+from tlv_model.yw7_file import Yw7File
 from tlviewer.configuration import Configuration
 from tlviewer.set_icon_tk import set_icon
 from tlviewer.tlviewer_commands import TlviewerCommands
 from tlviewer.tlviewer_globals import INSTALL_DIR
-from tlviewer.tlviewer_globals import prefs
+from tlviewer.tlviewer_globals import settings
 from tlviewer.tlviewer_menu import TlviewerMenu
 from tlviewer.tlviewer_path_bar import TlviewerPathBar
 from tlviewer.tlviewer_toolbar import TlviewerToolbar
@@ -61,13 +61,13 @@ class TimelineViewer(TlviewerCommands):
         self.prjFilePath = None
 
         #--- Set up the GUI.
-        if prefs['localize_date']:
+        if settings['localize_date']:
             locale.setlocale(locale.LC_TIME, "")
             # enabling localized time display
 
         self.root = tk.Tk()
         self.root.title('yw Timeline viewer')
-        self.root.geometry(prefs['window_geometry'])
+        self.root.geometry(settings['window_geometry'])
         set_icon(self.root, icon='tlv')
 
         self._mainMenu = TlviewerMenu(self.root)
@@ -85,7 +85,7 @@ class TimelineViewer(TlviewerCommands):
         self.tlv = TlvController(
             self.mdl,
             mainWindow,
-            prefs,
+            settings,
             onDoubleClick=self.open_section,
             )
         self.mdl.add_observer(self.tlv)
@@ -118,7 +118,7 @@ class TimelineViewer(TlviewerCommands):
 
                 elif answer:
                     self.save_project_file(self.prjFilePath)
-            prefs['window_geometry'] = self.root.winfo_geometry()
+            settings['window_geometry'] = self.root.winfo_geometry()
             self.tlv.on_quit()
         except Exception as ex:
             messagebox.showerror(
@@ -144,7 +144,7 @@ class TimelineViewer(TlviewerCommands):
                 )
         else:
             self.prjFilePath = filePath
-            prefs['last_open'] = filePath
+            settings['last_open'] = filePath
         finally:
             self.refresh()
 
@@ -180,8 +180,8 @@ def main():
     except:
         pass
         # skipping the configuraton if faulty
-    prefs.update(configuration.settings)
-    prefs.update(configuration.options)
+    settings.update(configuration.settings)
+    settings.update(configuration.options)
 
     #--- Instantiate the app object.
     app = TimelineViewer()
@@ -192,7 +192,7 @@ def main():
     except IndexError:
         filePath = ''
     if not filePath or not os.path.isfile(filePath):
-        filePath = prefs['last_open']
+        filePath = settings['last_open']
     if filePath and os.path.isfile(filePath):
         app.read_data(filePath)
 
@@ -201,11 +201,11 @@ def main():
     app.start()
 
     #--- Save project specific configuration
-    for keyword in prefs:
+    for keyword in settings:
         if keyword in configuration.options:
-            configuration.options[keyword] = prefs[keyword]
+            configuration.options[keyword] = settings[keyword]
         elif keyword in configuration.settings:
-            configuration.settings[keyword] = prefs[keyword]
+            configuration.settings[keyword] = settings[keyword]
     configuration.write(iniFile)
 
 
