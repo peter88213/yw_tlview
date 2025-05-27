@@ -7,12 +7,14 @@
 
 ### Version 0.7.1
 
-- Updated the tlv library to nv_tlview 5.6.1, fixing a bug. 
+- Updated the tlv library to nv_tlview 5.6.1, fixing a bug 
+  where the scale is not adjusted when maximizing the window.
 
 
 ### Version 0.7.0
 
-- Updated the tlv library to nv_tlview 5.6.0, fixing a regression and refactoring the code. 
+- Updated the tlv library to nv_tlview 5.6.0, refactoring the code 
+  and fixing a regression from version 5.5.0 where the minor scale units may not be set the right way. 
 
 
 ### Version 0.6.1
