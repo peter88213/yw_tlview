@@ -5,6 +5,11 @@
 ## Changelog
 
 
+### Version 0.7.1
+
+- Updated the tlv library to nv_tlview 5.6.1, fixing a bug. 
+
+
 ### Version 0.7.0
 
 - Updated the tlv library to nv_tlview 5.6.0, fixing a regression and refactoring the code. 

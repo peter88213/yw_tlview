@@ -12,7 +12,7 @@ sys.path.insert(0, f'{os.getcwd()}/../../yw_tlview/tools')
 from package_builder import PackageBuilder
 import inliner
 
-VERSION = '0.7.0'
+VERSION = '0.7.1'
 
 TEMP_FILE = '../test/temp.py'
 
