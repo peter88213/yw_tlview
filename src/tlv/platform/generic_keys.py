@@ -9,6 +9,4 @@ from tlv.tlv_locale import _
 
 class GenericKeys:
 
-    OPEN_HELP = ('<F1>', 'F1')
     QUIT_PROGRAM = ('<Control-q>', f'{_("Ctrl")}-Q')
-    UNDO = ('<Control-z>', f'{_("Ctrl")}-Z')

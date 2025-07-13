@@ -10,5 +10,4 @@ from tlv.platform.generic_keys import GenericKeys
 class MacKeys(GenericKeys):
 
     QUIT_PROGRAM = ('<Command-q>', 'Cmd-Q')
-    UNDO = ('<Command-z>', 'Cmd-Z')
 
